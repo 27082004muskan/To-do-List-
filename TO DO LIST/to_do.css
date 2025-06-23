@@ -1,0 +1,46 @@
+#main-heading{
+    text-align: center;
+   
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+}
+body{
+    background-image: url(./img/todo.webp);
+  
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 180px 140px 80px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    margin-left: 35%;
+   
+}
+
+#todo-input ,#todo-date{
+ font-size: 15px;
+ padding: 15px 10px;
+ border-radius: 10px;
+ 
+
+}
+.btn-delete{
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+.btn-todo{
+    background-color:rgb(0, 19, 128);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    cursor: pointer;
+}
